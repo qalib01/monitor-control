@@ -2,5 +2,5 @@
 
 # 1-ci mərtəbədə olan Növbə Monitorları və yönləndiriləcək linklər
 
-192.168.1.1:5555  http://link.com/test_url_for_redirect
-192.168.1.2:5555  http://link.com/test_url_for_redirect
+192.168.1.101:5555    http://your-local-link.com/screen-1
+192.168.1.102:5555    http://your-local-link.com/screen-2
