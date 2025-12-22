@@ -1,0 +1,6 @@
+# ip_link_map.txt - Hər bir TV üçün IP və ona aid olan Link
+
+# 1-ci mərtəbədə olan Növbə Monitorları və yönləndiriləcək linklər
+
+192.168.1.1:5555  http://link.com/test_url_for_redirect
+192.168.1.2:5555  http://link.com/test_url_for_redirect
