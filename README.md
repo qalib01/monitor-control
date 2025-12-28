@@ -35,7 +35,7 @@ Bu layihə yerli (lokal/daxili) şəbəkə üzərindən ADB (Android Debug Bridg
 
 ## 🛠 İstifadəsi
 
-Aşağıdakı komandları istifadə edərək Gitbash-da çağırın. **Qeyd:** İlk növbədə Gitbash terminalı açdıqdan sonra əsas qovluğa keçid etməlisiniz. Bunu cd QOVLUQ_ADI edərək giriş edə bilərsiniz.
+Aşağıdakı komandları istifadə edərək Gitbash-da çağırın. **Qeyd:** İlk növbədə Gitbash terminalı açdıqdan sonra əsas qovluğa keçid etməlisiniz. Bunu ***cd QOVLUQ_ADI*** edərək giriş edə bilərsiniz.
 
 ```bash
 sh monitor_control.sh power               Bütün TVləri yandırıb söndürmək üçün istifadə olunur.
