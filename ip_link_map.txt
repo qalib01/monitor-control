@@ -1,6 +1,20 @@
-# ip_link_map.txt - Hər bir TV üçün IP və ona aid olan Link
+10.50.176.151:5555  http://nis.asan.org/monitor/rotating/?monitor-key=COYSAQ
+10.50.176.152:5555  http://nis.asan.org/monitor/rotating/?monitor-key=COYSAQ
+10.50.176.153:5555  http://nis.asan.org/monitor/simple/?monitor-key=mertebe1
+10.50.176.154:5555  http://nis.asan.org/monitor/rotating/?monitor-key=COYSAQ
+10.50.176.155:5555  http://nis.asan.org/monitor/rotating/?monitor-key=COYSAQ
+10.50.176.156:5555  http://nis.asan.org/monitor/simple/?monitor-key=mertebe1
+10.50.176.157:5555  http://nis.asan.org/monitor/rotating/?monitor-key=COYSAQ
+10.50.176.158:5555  http://nis.asan.org/monitor/rotating/?monitor-key=COYSAQ
+10.50.176.159:5555  http://nis.asan.org/monitor/rotating/?monitor-key=COYSAQ
 
-# 1-ci mərtəbədə olan Növbə Monitorları və yönləndiriləcək linklər
+10.50.176.162:5555  http://nis.asan.org/monitor/simple/?monitor-key=BEXHGC
+10.50.176.163:5555  http://nis.asan.org/monitor/simple/?monitor-key=BEXHGC
+10.50.176.164:5555  http://nis.asan.org/monitor/simple/?monitor-key=BEXHGC
 
-192.168.1.101:5555    http://your-local-link.com/screen-1
-192.168.1.102:5555    http://your-local-link.com/screen-2
+10.50.176.172:5555 http://nis.asan.org/monitor/simple/?monitor-key=GPGXJU
+10.50.176.173:5555 http://nis.asan.org/monitor/simple/?monitor-key=GPGXJU
+10.50.176.174:5555 http://nis.asan.org/monitor/simple/?monitor-key=GPGXJU
+
+10.50.176.16:5555  http://nis.asan.org/tablo
+10.50.176.39:5555  http://nis.asan.org/tablo
