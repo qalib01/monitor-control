@@ -92,12 +92,14 @@ goto end
 echo --- Linke yonlendirme baslayir ---
 for %%D in (%DEVICES%) do (
     :: Fayldan həmin İP-yə uyğun URL-i tapırıq
-    for /f "tokens=2" %%U in ('findstr /b "%%D" %IP_LINK_MAP_FILE%') do (
-        echo %%D cihazi %%U linkine yonlendirilir
-        %ADB_PATH% connect %%D >nul 2>&1
-        %ADB_PATH% -s %%D shell am start -a android.intent.action.VIEW -d "%%U"
-        %ADB_PATH% disconnect %%D >nul 2>&1
-    )
+    for /f "tokens=1,2" %%I in ('findstr /b "%%D" %IP_LINK_MAP_FILE%') do (
+        if %%D==%%I (
+            echo %%D cihazi %%J linkine yonlendirilir
+            %ADB_PATH% connect %%D >nul 2>&1
+            %ADB_PATH% -s %%D shell am start -a android.intent.action.VIEW -d "%%J"
+            %ADB_PATH% disconnect %%D >nul 2>&1
+        )
+    ) 
 )
 echo --- Linke yonlendirme bitdi ---
 goto end
@@ -117,9 +119,13 @@ for %%D in (%DEVICES%) do (
     )
 
     :: 2. Redirect
-    for /f "tokens=2" %%U in ('findstr /b "%%D" %IP_LINK_MAP_FILE%') do (
-        echo %%D cihazi %%U linkine yonlendirilir
-        %ADB_PATH% -s %%D shell am start -a android.intent.action.VIEW -d "%%U"
+    for /f "tokens=1,2" %%I in ('findstr /b "%%D" %IP_LINK_MAP_FILE%') do (
+        if %%D==%%I (
+            echo %%D cihazi %%J linkine yonlendirilir
+            %ADB_PATH% connect %%D >nul 2>&1
+            %ADB_PATH% -s %%D shell am start -a android.intent.action.VIEW -d "%%J"
+            %ADB_PATH% disconnect %%D >nul 2>&1
+        )
     )
     
     timeout /t 2 /nobreak >nul
