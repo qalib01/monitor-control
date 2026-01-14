@@ -59,4 +59,4 @@ Bu skripti Windows-da avtomatik işə salmaq üçün:
     5. Start in: C:\platform-tools\ (Burada proyektin hansı qovluqda olduğunu qeyd edirsiniz. adb.exe ilə eyni qovluqda olmalıdır)
 ```
 
-**Qeyd:** Gözləmə rejimində cihazın oflayn xətalarının qarşısını almaq üçün televizorlarınızda "Sürətli yükləmə" və ya "Şəbəkə Gözləmə rejimi"nin aktiv olduğundan əmin olun. Bütün bu düzəlişlər və işlər hazır olduqdan sonra proqramı başladıb yoxlaya bilərsiniz. **Qeyd:** TV-lərin Rezerv və ya statik İPlərlə idarə olunduğundan əmin olun. İPlər dəyişilməməlidir ki, proqram stabil işləyə bilsin.
+**Qeyd:** Gözləmə rejimində cihazın oflayn xətalarının qarşısını almaq üçün televizorlarınızda "Sürətli yükləmə" və ya "Şəbəkə Gözləmə rejimi"nin aktiv olduğundan əmin olun. Bütün bu düzəlişlər və işlər hazır olduqdan sonra proqramı başladıb yoxlaya bilərsiniz. **Qeyd:** TV-lərin DHCP Rezerv və ya statik İPlərlə idarə olunduğundan əmin olun. İPlər dəyişilməməlidir ki, proqram stabil işləyə bilsin.
